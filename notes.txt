@@ -1,0 +1,7 @@
+public void riseAlarm (int numOfWarnings){
+    int=1;
+    while(i<=numOfWarnings){
+        System.out.println("Warning!");
+        i=i++;
+    }
+}
