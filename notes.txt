@@ -103,3 +103,18 @@ public String findLongestName(String [] names){
     return longestName;
 }
 
+public static double studentAverage(int [][] grades, int student){
+    int subjects = grades.length;
+    int total = 0;
+    for(int i=0; i<subjects; i++){
+        total += grades [i][student];
+    }
+    double average = total/(double)subjects;
+    return average;
+}
+
+for(int i=0; i<3; 1++){
+    for(int j=0; j<3; j++){
+        System.println("Hi!");
+    }
+}
