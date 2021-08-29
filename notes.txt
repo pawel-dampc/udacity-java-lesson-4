@@ -80,3 +80,15 @@ public double calculateAverage (double [] temperatures){
     double average = total/size;
     return average;
 }
+
+public double search(double[] speed){
+    int size = speed.length;
+    double min = speed[0];
+    for (int i=1; i<size; i++){
+        if(speed[i]<min){
+            min = speed[1];
+        }
+    }
+    return min; 
+}
+
